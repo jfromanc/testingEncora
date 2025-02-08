@@ -1,0 +1,64 @@
+@FEATURE_DEMOBLAZE
+Característica: Validar el funcionamiento de los formularios de ParaBank
+  Como automatizador web
+  Quiero validar el funcionamiento de los formularios
+  Para registrar usuarios
+
+  @ESCENARIO_PARABANK
+  Esquema del escenario: Registro exitoso de un nuevo usuario [90m# src/test/resources/web/registerParabank.feature:10[0m
+    [36mDado que el usuario abre la pagina en el navegador "<navegador>"[0m
+    [36mCuando hace clic en el enlace de Register[0m
+    [36mE ingresa "<firstName>" en el campo First Name[0m
+    [36mE ingresa "<lastName>" en el campo Last Name[0m
+    [36mE ingresa "<address>" en el campo Address[0m
+    [36mE ingresa "<city>" en el campo City[0m
+    [36mE ingresa "<state>" en el campo State[0m
+    [36mE ingresa "<zipCode>" en el campo Zip Code[0m
+    [36mE ingresa "<phone>" en el campo Phone[0m
+    [36mE ingresa "<ssn>" en el campo SSN[0m
+    [36mE ingresa "<username>" en el campo Username[0m
+    [36mE ingresa "<password>" en el campo Password[0m
+    [36mE ingresa "<password>" en el campo Confirm Password[0m
+    [36mY hace clic en el boton Register[0m
+    [36mEntonces visualiza el mensaje "Your account was created successfully. You are now logged in."[0m
+    [36mY accede a la pagina de inicio de sesion para autenticarse con "<username>" y "<password>"[0m
+
+    Ejemplos: 
+
+  @FEATURE_DEMOBLAZE @ESCENARIO_PARABANK
+  Esquema del escenario: Registro exitoso de un nuevo usuario                                       [90m# src/test/resources/web/registerParabank.feature:29[0m
+    [32mDado [0m[32mque el usuario abre la pagina en el navegador "[0m[32m[1mchrome[0m[32m"[0m                                     [90m# RegisterParabankStepDefinition.queElUsuarioAbreLaPaginaEnElNavegador(String)[0m
+    [32mCuando [0m[32mhace clic en el enlace de Register[0m                                                       [90m# RegisterParabankStepDefinition.haceClicEnElEnlaceDeRegister()[0m
+    [32mE [0m[32mingresa "[0m[32m[1mJuan[0m[32m" en el campo First Name[0m                                                         [90m# RegisterParabankStepDefinition.ingresaEnElCampoFirstName(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mFlores[0m[32m" en el campo Last Name[0m                                                        [90m# RegisterParabankStepDefinition.ingresaEnElCampoLastName(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mCalle 123[0m[32m" en el campo Address[0m                                                       [90m# RegisterParabankStepDefinition.ingresaEnElCampoAddress(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mMadrid[0m[32m" en el campo City[0m                                                             [90m# RegisterParabankStepDefinition.ingresaEnElCampoCity(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mMadrid[0m[32m" en el campo State[0m                                                            [90m# RegisterParabankStepDefinition.ingresaEnElCampoState(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1m28001[0m[32m" en el campo Zip Code[0m                                                          [90m# RegisterParabankStepDefinition.ingresaEnElCampoZipCode(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1m555-0101[0m[32m" en el campo Phone[0m                                                          [90m# RegisterParabankStepDefinition.ingresaEnElCampoPhone(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1m123-45-6789[0m[32m" en el campo SSN[0m                                                         [90m# RegisterParabankStepDefinition.ingresaEnElCampoSSN(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mtestingEncora4[0m[32m" en el campo Username[0m                                                 [90m# RegisterParabankStepDefinition.ingresaEnElCampoUsername(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mtesting1997[0m[32m" en el campo Password[0m                                                    [90m# RegisterParabankStepDefinition.ingresaEnElCampoPassword(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mtesting1997[0m[32m" en el campo Confirm Password[0m                                            [90m# RegisterParabankStepDefinition.ingresaEnElCampoConfirmPassword(String)[0m
+    [32mY [0m[32mhace clic en el boton Register[0m                                                                [90m# RegisterParabankStepDefinition.haceClicEnElBotonRegister()[0m
+    [32mEntonces [0m[32mvisualiza el mensaje "[0m[32m[1mYour account was created successfully. You are now logged in.[0m[32m"[0m   [90m# RegisterParabankStepDefinition.visualizaElMensaje(String)[0m
+    [32mY [0m[32maccede a la pagina de inicio de sesion para autenticarse con "[0m[32m[1mtestingEncora4[0m[32m" y "[0m[32m[1mtesting1997[0m[32m"[0m [90m# RegisterParabankStepDefinition.accedeALaPaginaDeInicioDeSesionParaAutenticarseConY(String,String)[0m
+
+  @FEATURE_DEMOBLAZE @ESCENARIO_PARABANK
+  Esquema del escenario: Registro exitoso de un nuevo usuario                                       [90m# src/test/resources/web/registerParabank.feature:30[0m
+    [32mDado [0m[32mque el usuario abre la pagina en el navegador "[0m[32m[1medge[0m[32m"[0m                                       [90m# RegisterParabankStepDefinition.queElUsuarioAbreLaPaginaEnElNavegador(String)[0m
+    [32mCuando [0m[32mhace clic en el enlace de Register[0m                                                       [90m# RegisterParabankStepDefinition.haceClicEnElEnlaceDeRegister()[0m
+    [32mE [0m[32mingresa "[0m[32m[1mJuan[0m[32m" en el campo First Name[0m                                                         [90m# RegisterParabankStepDefinition.ingresaEnElCampoFirstName(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mFlores[0m[32m" en el campo Last Name[0m                                                        [90m# RegisterParabankStepDefinition.ingresaEnElCampoLastName(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mCalle 123[0m[32m" en el campo Address[0m                                                       [90m# RegisterParabankStepDefinition.ingresaEnElCampoAddress(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mMadrid[0m[32m" en el campo City[0m                                                             [90m# RegisterParabankStepDefinition.ingresaEnElCampoCity(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mMadrid[0m[32m" en el campo State[0m                                                            [90m# RegisterParabankStepDefinition.ingresaEnElCampoState(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1m28001[0m[32m" en el campo Zip Code[0m                                                          [90m# RegisterParabankStepDefinition.ingresaEnElCampoZipCode(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1m555-0101[0m[32m" en el campo Phone[0m                                                          [90m# RegisterParabankStepDefinition.ingresaEnElCampoPhone(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1m123-45-6789[0m[32m" en el campo SSN[0m                                                         [90m# RegisterParabankStepDefinition.ingresaEnElCampoSSN(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mtestingEncora5[0m[32m" en el campo Username[0m                                                 [90m# RegisterParabankStepDefinition.ingresaEnElCampoUsername(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mtesting1997[0m[32m" en el campo Password[0m                                                    [90m# RegisterParabankStepDefinition.ingresaEnElCampoPassword(String)[0m
+    [32mE [0m[32mingresa "[0m[32m[1mtesting1997[0m[32m" en el campo Confirm Password[0m                                            [90m# RegisterParabankStepDefinition.ingresaEnElCampoConfirmPassword(String)[0m
+    [32mY [0m[32mhace clic en el boton Register[0m                                                                [90m# RegisterParabankStepDefinition.haceClicEnElBotonRegister()[0m
+    [32mEntonces [0m[32mvisualiza el mensaje "[0m[32m[1mYour account was created successfully. You are now logged in.[0m[32m"[0m   [90m# RegisterParabankStepDefinition.visualizaElMensaje(String)[0m
+    [32mY [0m[32maccede a la pagina de inicio de sesion para autenticarse con "[0m[32m[1mtestingEncora5[0m[32m" y "[0m[32m[1mtesting1997[0m[32m"[0m [90m# RegisterParabankStepDefinition.accedeALaPaginaDeInicioDeSesionParaAutenticarseConY(String,String)[0m
