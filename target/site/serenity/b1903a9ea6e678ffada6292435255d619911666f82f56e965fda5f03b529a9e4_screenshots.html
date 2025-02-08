@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="b58b70faae1d626354f8465982412302593193a50364837b595a0a0b3a40189c.html">Validar El Funcionamiento De Los Formularios De Demoblaze</a></span>
+                > <span class="truncate-60"><a
+                    href="b1903a9ea6e678ffada6292435255d619911666f82f56e965fda5f03b529a9e4.html">Registro exitoso de un nuevo usuario </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-02-2025 18:22</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validar El Funcionamiento De Los Formularios De Demoblaze</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como automatizador web
+Quiero validar el funcionamiento de los formularios
+Para lanzarlo a producción
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="c43e9e8215d018c43b56ea7f70c997bbefe4a450b251a6a6ecda0e4098060124.html">ESCENARIO PARABANK
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="6185577b3d0995b946f69a5c84982a529e1d884d3c1b7a791bfa26603315eb0b.html">FEATURE DEMOBLAZE
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Registro exitoso de un nuevo usuario
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que el usuario abre la pagina en el navegador "&lt;navegador&gt;"<br>Cuando hace clic en el enlace de Register<br>E ingresa "&lt;firstName&gt;" en el campo First Name<br>E ingresa "&lt;lastName&gt;" en el campo Last Name<br>E ingresa "&lt;address&gt;" en el campo Address<br>E ingresa "&lt;city&gt;" en el campo City<br>E ingresa "&lt;state&gt;" en el campo State<br>E ingresa "&lt;zipCode&gt;" en el campo Zip Code<br>E ingresa "&lt;phone&gt;" en el campo Phone<br>E ingresa "&lt;ssn&gt;" en el campo SSN<br>E ingresa "&lt;username&gt;" en el campo Username<br>E ingresa "&lt;password&gt;" en el campo Password<br>E ingresa "&lt;password&gt;" en el campo Confirm Password<br>Y hace clic en el boton Register<br>Entonces visualiza el mensaje "Your account was created successfully. You are now logged in."<br>Y accede a la pagina de inicio de sesion para autenticarse con "&lt;username&gt;" y "&lt;password&gt;"</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="ae79eaa21bc8403f67082a887bc4ed84f6409a5227f39e062c89e5c4f3f5f193.png" title=" Example #1: {navegador=chrome, firstName=Juan, lastName=Flores, address=Calle 123, city=Madrid, state=Madrid, zipCode=28001, phone=555-0101, ssn=123-45-6789, username=jfromanc1998, password=testing1997}" width="1920"/>
+                <img src="ae79eaa21bc8403f67082a887bc4ed84f6409a5227f39e062c89e5c4f3f5f193.png" title=" Cuando hace clic en el enlace de Register" width="1920"/>
+                <img src="ae79eaa21bc8403f67082a887bc4ed84f6409a5227f39e062c89e5c4f3f5f193.png" title=" Hacer clic en el enlace de register" width="1920"/>
+                <img src="ae79eaa21bc8403f67082a887bc4ed84f6409a5227f39e062c89e5c4f3f5f193.png" title=" Cuando hace clic en el enlace de Register (completed)" width="1920"/>
+                <img src="114cab23fc0781656c190271daa767470d2833597184d0492f227146643c77ae.png" title=" E ingresa &quot;Juan&quot; en el campo First Name" width="1920"/>
+                <img src="114cab23fc0781656c190271daa767470d2833597184d0492f227146643c77ae.png" title=" Ingresar en el campo first name: Juan" width="1920"/>
+                <img src="adee9e42ef1d72be4e0f6722430d470e826d754163966528bacda23961d896d6.png" title=" E ingresa &quot;Flores&quot; en el campo Last Name" width="1920"/>
+                <img src="adee9e42ef1d72be4e0f6722430d470e826d754163966528bacda23961d896d6.png" title=" Ingresar en el campo last name: Flores" width="1920"/>
+                <img src="8674a666b368f62276df14f79bebceb65fed9fccb4af9f36b894722efa816120.png" title=" E ingresa &quot;Calle 123&quot; en el campo Address" width="1920"/>
+                <img src="8674a666b368f62276df14f79bebceb65fed9fccb4af9f36b894722efa816120.png" title=" Ingresar en el campo address: Calle 123" width="1920"/>
+                <img src="8674a666b368f62276df14f79bebceb65fed9fccb4af9f36b894722efa816120.png" title=" E ingresa &quot;Calle 123&quot; en el campo Address (completed)" width="1920"/>
+                <img src="659258c90ffa5d6d9ec5594ad5cac3655cb289d7b1269c285f71ff65fbcfaa69.png" title=" E ingresa &quot;Madrid&quot; en el campo City" width="1920"/>
+                <img src="659258c90ffa5d6d9ec5594ad5cac3655cb289d7b1269c285f71ff65fbcfaa69.png" title=" Ingresar en el campo city: Madrid" width="1920"/>
+                <img src="659258c90ffa5d6d9ec5594ad5cac3655cb289d7b1269c285f71ff65fbcfaa69.png" title=" E ingresa &quot;Madrid&quot; en el campo City (completed)" width="1920"/>
+                <img src="40a4c41d928984ea3d78bc4bd8563a415275ee7d75b4ff89571f15ecab8821b0.png" title=" E ingresa &quot;Madrid&quot; en el campo State" width="1920"/>
+                <img src="40a4c41d928984ea3d78bc4bd8563a415275ee7d75b4ff89571f15ecab8821b0.png" title=" Ingresar en el campo state: Madrid" width="1920"/>
+                <img src="08a0311f28dd9e79867c2583c65b2611b415b7533aa31eefd37efb02a3d994bc.png" title=" E ingresa &quot;28001&quot; en el campo Zip Code" width="1920"/>
+                <img src="08a0311f28dd9e79867c2583c65b2611b415b7533aa31eefd37efb02a3d994bc.png" title=" Ingresar en el campo zip code: 28001" width="1920"/>
+                <img src="93248739de81d09e1750e9c6ebefea7a0e21cdde3eb69cd18f43ef8b288ff160.png" title=" E ingresa &quot;555-0101&quot; en el campo Phone" width="1920"/>
+                <img src="93248739de81d09e1750e9c6ebefea7a0e21cdde3eb69cd18f43ef8b288ff160.png" title=" Ingresar en el campo phone: 555-0101" width="1920"/>
+                <img src="18f4bfdc95ee2e8a130fbe4850324b49ee9f5b57397affb9b533e75670e62f59.png" title=" E ingresa &quot;123-45-6789&quot; en el campo SSN" width="1920"/>
+                <img src="18f4bfdc95ee2e8a130fbe4850324b49ee9f5b57397affb9b533e75670e62f59.png" title=" Ingresar en el campo SSN: 123-45-6789" width="1920"/>
+                <img src="bb7f995a7c8707b07a336cbd30eaea1ec6b6a5a22d3fd432d59a21ca95ed8076.png" title=" E ingresa &quot;jfromanc1998&quot; en el campo Username" width="1920"/>
+                <img src="bb7f995a7c8707b07a336cbd30eaea1ec6b6a5a22d3fd432d59a21ca95ed8076.png" title=" Ingresar en el campo username: jfromanc1998" width="1920"/>
+                <img src="32adb2a6c5f2a78dbecc9b1cbfb1541b4dc1d8074742dd2f5a57578a5379725e.png" title=" E ingresa &quot;testing1997&quot; en el campo Password" width="1920"/>
+                <img src="32adb2a6c5f2a78dbecc9b1cbfb1541b4dc1d8074742dd2f5a57578a5379725e.png" title=" Ingresar en el campo password: testing1997" width="1920"/>
+                <img src="32adb2a6c5f2a78dbecc9b1cbfb1541b4dc1d8074742dd2f5a57578a5379725e.png" title=" E ingresa &quot;testing1997&quot; en el campo Password (completed)" width="1920"/>
+                <img src="92fcdf983631819d11b819ff14cdd192d0933277dd3cd77f2462d5d83dbda6de.png" title=" E ingresa &quot;testing1997&quot; en el campo Confirm Password" width="1920"/>
+                <img src="92fcdf983631819d11b819ff14cdd192d0933277dd3cd77f2462d5d83dbda6de.png" title=" Ingresar en el campo confirm password: testing1997" width="1920"/>
+                <img src="92fcdf983631819d11b819ff14cdd192d0933277dd3cd77f2462d5d83dbda6de.png" title=" E ingresa &quot;testing1997&quot; en el campo Confirm Password (completed)" width="1920"/>
+                <img src="6babfac0cbb72dfaeff4305f302defe1fd37055d55e96d1c54003e94dd22cdc8.png" title=" Y hace clic en el boton Register" width="1920"/>
+                <img src="6babfac0cbb72dfaeff4305f302defe1fd37055d55e96d1c54003e94dd22cdc8.png" title=" Hacer clic en el boton register" width="1920"/>
+                <img src="6babfac0cbb72dfaeff4305f302defe1fd37055d55e96d1c54003e94dd22cdc8.png" title=" Entonces visualiza el mensaje &quot;Your account was created successfully. You are now logged in.&quot;" width="1920"/>
+                <img src="6babfac0cbb72dfaeff4305f302defe1fd37055d55e96d1c54003e94dd22cdc8.png" title=" Visualiza el mensaje: Your account was created successfully. You are now logged in." width="1920"/>
+                <img src="6babfac0cbb72dfaeff4305f302defe1fd37055d55e96d1c54003e94dd22cdc8.png" title=" Entonces visualiza el mensaje &quot;Your account was created successfully. You are now logged in.&quot; (completed)" width="1920"/>
+                <img src="cd20bb7c9683f132b27f4dd04c8d9bde145fc13ea14fc9aaa015968ce5ae0372.png" title=" Y accede a la pagina de inicio de sesion para autenticarse con &quot;jfromanc1998&quot; y &quot;testing1997&quot;" width="1920"/>
+                <img src="cd20bb7c9683f132b27f4dd04c8d9bde145fc13ea14fc9aaa015968ce5ae0372.png" title=" Acceder a la pagina de inicio de sesion para autenticarse con y: jfromanc1998, testing1997" width="1920"/>
+                <img src="cd20bb7c9683f132b27f4dd04c8d9bde145fc13ea14fc9aaa015968ce5ae0372.png" title=" Example #1: {navegador=chrome, firstName=Juan, lastName=Flores, address=Calle 123, city=Madrid, state=Madrid, zipCode=28001, phone=555-0101, ssn=123-45-6789, username=jfromanc1998, password=testing1997} (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.54</span>
+</div>
+</body>
+</html>

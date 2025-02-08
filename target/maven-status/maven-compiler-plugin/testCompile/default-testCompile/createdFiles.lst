@@ -1,0 +1,5 @@
+com\bdd\runner\RunnerTest.class
+com\bdd\step\RegisterParabankStep.class
+com\bdd\page\RegisterParabankPage.class
+com\bdd\page\Browser.class
+com\bdd\stepdefinition\RegisterParabankStepDefinition.class

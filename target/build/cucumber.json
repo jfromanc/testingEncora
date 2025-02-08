@@ -1,0 +1,618 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 29,
+        "name": "Registro exitoso de un nuevo usuario",
+        "description": "",
+        "id": "validar-el-funcionamiento-de-los-formularios-de-parabank;registro-exitoso-de-un-nuevo-usuario;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4607716500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que el usuario abre la pagina en el navegador \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 47
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.queElUsuarioAbreLaPaginaEnElNavegador(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 836020300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "hace clic en el enlace de Register",
+            "match": {
+              "location": "RegisterParabankStepDefinition.haceClicEnElEnlaceDeRegister()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 239909100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "ingresa \"Juan\" en el campo First Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Juan",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoFirstName(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 240093100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "ingresa \"Flores\" en el campo Last Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Flores",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoLastName(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 250718000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "ingresa \"Calle 123\" en el campo Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Calle 123",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoAddress(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 310247700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "ingresa \"Madrid\" en el campo City",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Madrid",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoCity(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 231866700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "ingresa \"Madrid\" en el campo State",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Madrid",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoState(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 247593400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "ingresa \"28001\" en el campo Zip Code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "28001",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoZipCode(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 232818100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "ingresa \"555-0101\" en el campo Phone",
+            "match": {
+              "arguments": [
+                {
+                  "val": "555-0101",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoPhone(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 240913500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "ingresa \"123-45-6789\" en el campo SSN",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123-45-6789",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoSSN(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 281421400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "ingresa \"testingEncora4\" en el campo Username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testingEncora4",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoUsername(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 235938000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "ingresa \"testing1997\" en el campo Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing1997",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoPassword(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 218948100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "ingresa \"testing1997\" en el campo Confirm Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing1997",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoConfirmPassword(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 611596800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "hace clic en el boton Register",
+            "match": {
+              "location": "RegisterParabankStepDefinition.haceClicEnElBotonRegister()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 175361100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "visualiza el mensaje \"Your account was created successfully. You are now logged in.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your account was created successfully. You are now logged in.",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.visualizaElMensaje(String)"
+            },
+            "keyword": "Entonces "
+          },
+          {
+            "result": {
+              "duration": 1664997800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "accede a la pagina de inicio de sesion para autenticarse con \"testingEncora4\" y \"testing1997\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testingEncora4",
+                  "offset": 62
+                },
+                {
+                  "val": "testing1997",
+                  "offset": 81
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.accedeALaPaginaDeInicioDeSesionParaAutenticarseConY(String,String)"
+            },
+            "keyword": "Y "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FEATURE_DEMOBLAZE"
+          },
+          {
+            "name": "@ESCENARIO_PARABANK"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Registro exitoso de un nuevo usuario",
+        "description": "",
+        "id": "validar-el-funcionamiento-de-los-formularios-de-parabank;registro-exitoso-de-un-nuevo-usuario;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3408629900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que el usuario abre la pagina en el navegador \"edge\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "edge",
+                  "offset": 47
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.queElUsuarioAbreLaPaginaEnElNavegador(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1111759300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "hace clic en el enlace de Register",
+            "match": {
+              "location": "RegisterParabankStepDefinition.haceClicEnElEnlaceDeRegister()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 244480000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "ingresa \"Juan\" en el campo First Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Juan",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoFirstName(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 254725100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "ingresa \"Flores\" en el campo Last Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Flores",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoLastName(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 248876100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "ingresa \"Calle 123\" en el campo Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Calle 123",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoAddress(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 222565800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "ingresa \"Madrid\" en el campo City",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Madrid",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoCity(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 237744300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "ingresa \"Madrid\" en el campo State",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Madrid",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoState(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 234605000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "ingresa \"28001\" en el campo Zip Code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "28001",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoZipCode(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 248623500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "ingresa \"555-0101\" en el campo Phone",
+            "match": {
+              "arguments": [
+                {
+                  "val": "555-0101",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoPhone(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 247280300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "ingresa \"123-45-6789\" en el campo SSN",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123-45-6789",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoSSN(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 243793300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "ingresa \"testingEncora5\" en el campo Username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testingEncora5",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoUsername(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 262280000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "ingresa \"testing1997\" en el campo Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing1997",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoPassword(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 286128800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "ingresa \"testing1997\" en el campo Confirm Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing1997",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.ingresaEnElCampoConfirmPassword(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 939898200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "hace clic en el boton Register",
+            "match": {
+              "location": "RegisterParabankStepDefinition.haceClicEnElBotonRegister()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 184616000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "visualiza el mensaje \"Your account was created successfully. You are now logged in.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your account was created successfully. You are now logged in.",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.visualizaElMensaje(String)"
+            },
+            "keyword": "Entonces "
+          },
+          {
+            "result": {
+              "duration": 2093257300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "accede a la pagina de inicio de sesion para autenticarse con \"testingEncora5\" y \"testing1997\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testingEncora5",
+                  "offset": 62
+                },
+                {
+                  "val": "testing1997",
+                  "offset": 81
+                }
+              ],
+              "location": "RegisterParabankStepDefinition.accedeALaPaginaDeInicioDeSesionParaAutenticarseConY(String,String)"
+            },
+            "keyword": "Y "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FEATURE_DEMOBLAZE"
+          },
+          {
+            "name": "@ESCENARIO_PARABANK"
+          }
+        ]
+      }
+    ],
+    "name": "Validar el funcionamiento de los formularios de ParaBank",
+    "description": "  Como automatizador web\n  Quiero validar el funcionamiento de los formularios\n  Para registrar usuarios",
+    "id": "validar-el-funcionamiento-de-los-formularios-de-parabank",
+    "keyword": "Característica",
+    "uri": "src/test/resources/web/registerParabank.feature",
+    "tags": [
+      {
+        "name": "@FEATURE_DEMOBLAZE",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
