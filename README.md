@@ -8,11 +8,11 @@ testing-automation
 nota: actualizar la version del navegador (el la mayoría de casos ese se actualiza automáticamente al entrar a observar la version en settings > acerca del navegador)
 4) ir a la terminal del proyecto y ejecutar los comandos:
 	- ejecutar los siguientes comandos uno por uno en el terminal de proyecto o git bash:
-		mvn dependency:resolve
-		mvn verify
-		mvn clean install -U
+		- mvn dependency:resolve
+		- mvn verify
+		- mvn clean install -U
 	- en caso haber problemas con las dependencias, puedes intentar:
-		mvn dependency:purge-local-repository
-		mvn clean install
+		- mvn dependency:purge-local-repository
+		- mvn clean install
 5) para este punto ya debería haberse ejecutado, en caso no sea asi, pruebe ejecutando la siguiente query desde el terminal del proyecto o git bash:
-	mvn test -Dcucumber.filter.tags="@ESCENARIO_PARABANK"
+	- mvn test -Dcucumber.filter.tags="@ESCENARIO_PARABANK"
